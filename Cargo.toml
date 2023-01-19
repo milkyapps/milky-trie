@@ -1,0 +1,20 @@
+[package]
+name = "milky-trie"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocksdb = "0.19.0"
+bytemuck = { version = "1.12.3", features = ["derive"] }
+serde = "*"
+erased-serde = "0.3.24"
+serde_json = "1.0.91"
+
+[dev-dependencies]
+criterion = "0.4"
+random_name_generator = "0.1.2"
+trie = "0.2.1"
+
+[[bench]]
+name = "trie"
+harness = false

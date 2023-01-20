@@ -13,7 +13,7 @@ serde_json = "1.0.91"
 [dev-dependencies]
 criterion = "0.4"
 random_name_generator = "0.1.2"
-trie = "0.2.1"
+qp-trie = "0.8.0"
 
 [[bench]]
 name = "trie"
